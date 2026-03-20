@@ -70,14 +70,8 @@ Closed-loop PID control with encoder feedback. Four independent motor drivers co
 
 ```
 ├── Technical_Report.pdf      # Full technical report (in Chinese)
-├── src/                      # ROS packages
-│   ├── voice_recognition/    # Speech command processing
-│   ├── face_detection/       # OpenCV template matching node
-│   ├── navigation/           # Custom navigation configurations
-│   └── hardware_driver/      # CAN bus and motor control
-├── launch/                   # ROS launch files
-├── config/                   # Parameter configurations (costmaps, planners)
-└── docs/                     # Additional documentation
+├── LICENSE                   # License file
+└── README.md                 # README file
 ```
 
 ## 🏆 Competition Achievement
@@ -101,7 +95,7 @@ Based on our post-competition analysis, potential enhancements include:
 - **Member**: Shao Haoyang (邵昊洋) – System maintenance and debugging
 - **Advisors**: Liu Andong (刘安东), Teng You (滕游)
 
-*Zhejiang University of Technology – BOOM不了一点点 Team*
+*Zhejiang University of Technology – BOOM不了一点队*
 
 ## 📚 Citation
 
@@ -123,4 +117,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 For questions or collaborations, feel free to open an issue or contact us!
-```
