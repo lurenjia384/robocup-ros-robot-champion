@@ -1,11 +1,4 @@
-# robocup-ros-robot-champion
-```markdown
 # ROS-Based Intelligent Robot for RoboCup China Open 2023 🏆
-
-ROS-based intelligent robot for 2023 RoboCup China Open (Vision Challenge). Achieved 1st place with perfect score. Implements voice recognition, A* + DWA navigation, and OpenCV face recognition. Full technical report and demo video included.
-
-
-
 
 [![YouTube Demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red?logo=youtube)](https://www.youtube.com/watch?v=J3KhlBPvCa0)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -114,7 +107,7 @@ Based on our post-competition analysis, potential enhancements include:
 
 If you find this work useful, please cite our technical report:
 
-```
+```bibtex
 @techreport{zjut_robocup2023,
   title={2023 China Robot Competition \& RoboCup China Open Technical Report},
   author={Yang, Changchuan and Wang, Can and Shao, Haoyang},
@@ -131,4 +124,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or collaborations, feel free to open an issue or contact us!
 ```
-
