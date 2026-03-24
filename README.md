@@ -1,119 +1,215 @@
-# ROS-Based Intelligent Robot for RoboCup China Open 2023 🏆
+# RoboCup ROS Robot Champion
 
-[![YouTube Demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red?logo=youtube)](https://www.youtube.com/watch?v=J3KhlBPvCa0)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+ROS-based intelligent robot project for the 2023 China Robot Competition & RoboCup China Open (Vision Challenge).
 
-This repository contains the technical report and software implementation of our champion robot developed for the **2023 China Robot Competition & RoboCup China Open (Vision Challenge)**. Our robot achieved a perfect score and the fastest time, securing **first place** in its category, outperforming strong teams from top universities such as Beijing Institute of Technology and Hunan University.
+**This repository now includes the open-source codebase in addition to the technical report.**  
+It contains the ROS workspace used in our competition system, including navigation, voice interaction, base bringup/control, visual tracking, and robotic arm related modules.
 
-## 🎥 Demo Video
+## Highlights
 
-Click the image below to watch the full demonstration:
+- Champion project of the 2023 China Robot Competition & RoboCup China Open (Vision Challenge)
+- Full ROS workspace is now open-sourced
+- Includes technical report, launch files, source code, and integrated third-party ROS packages
+- Covers navigation, speech interaction, robot bringup, visual tracking, and arm control
 
-[![Robot Demo Video](https://img.youtube.com/vi/J3KhlBPvCa0/0.jpg)](https://www.youtube.com/watch?v=J3KhlBPvCa0)
+## Project Overview
 
-The video showcases:
-- Voice command recognition
-- Real-time path planning and zero-stop obstacle avoidance (A* global + DWA local)
-- Face detection and tracking using OpenCV
-- Full competition run
+This project is an intelligent service robot system built on ROS.  
+The robot was designed for RoboCup competition tasks and integrates multiple capabilities such as:
 
----
+- Autonomous navigation and obstacle avoidance
+- Voice recognition and speech synthesis
+- Visual perception / target tracking
+- Base bringup and hardware control
+- Robotic arm control
 
-## 📄 Project Overview
+In addition to the technical report, this repository now provides the **actual ROS workspace (`mini2_ws`)** used in the project, making the project easier to study, reproduce, and extend.
 
-This project developed an intelligent robot based on the **ROS (Robot Operating System)** architecture, capable of simultaneously performing three core functions: voice recognition, dynamic obstacle avoidance navigation, and face recognition. The system integrates multiple sensors including LiDAR, RGB-D camera, and microphone array, and leverages state-of-the-art path planning and computer vision algorithms.
+## Open-Sourced Code Contents
 
-## 🚀 Key Features
+The repository contains a ROS catkin workspace:
 
-| Feature | Implementation |
-|---------|----------------|
-| **Navigation** | SLAM with LiDAR, Dijkstra (global planning), DWA (local planning) |
-| **Voice Recognition & Synthesis** | iFlytek (科大讯飞) deep learning engine |
-| **Face Recognition** | OpenCV template matching (with potential for deep learning upgrade) |
-| **Hardware Control** | STM32 (GD32F103) + CAN bus motor drivers |
-| **Chassis** | Mecanum wheels for omnidirectional movement |
+```text
+mini2_ws/
+├── src/
+│   ├── robot_voice/
+│   ├── robot_slam/
+│   ├── track_pkg/
+│   ├── mini2_arm/
+│   ├── robot_base/
+│   ├── apriltags2/
+│   ├── apriltags2_ros/
+│   ├── better_astar_global_planner-main/
+│   ├── openvino/
+│   ├── range_sensor_layer/
+│   ├── ros_astra_camera-master/
+│   ├── rplidar_ros/
+│   └── waterplus_map_tools/
+````
 
-## 🛠️ Hardware Architecture
+### Main custom modules
 
-### Sensors & Actuators
-- **LiDAR**: SLAMTEC (triangulation-based) for mapping and obstacle detection
-- **RGB-D Camera**: Structured-light depth camera for visual perception
-- **Microphone Array**: For voice command acquisition
-- **Motors**: 4x DC geared motors with 16-line encoders (131.3:1 reduction)
-- **IMU**: ICM20602 gyroscope for orientation feedback
+#### 1. `robot_voice`
 
-### Control Unit
-- **Lower-level controller**: GD32F103RCT6 microcontroller (STM32-compatible)
-- **Upper-level processor**: Onboard PC running ROS
-- **Communication**: CAN bus for motor control, USB/UART for sensors
+Voice interaction related package.
+It includes speech recognition, speech synthesis, offline ASR, NLU-related code, and corresponding launch files.
 
-### Power System
-- 12V Li-ion battery with step-down converters (12V→5V→3.3V→1.8V)
+Typical source files include:
 
-## 💻 Software Architecture
+* `iat_publish.cpp`
+* `asr_offline.cpp`
+* `talk_tts.cpp`
+* `tts_subscribe.cpp`
+* `tuling_nlu.cpp`
+* `voice_assistant.cpp`
 
-### ROS Navigation Stack
-We used the ROS `move_base` framework with:
-- **Global Planner**: Dijkstra's algorithm on a costmap with inflation layers
-- **Local Planner**: Dynamic Window Approach (DWA) for real-time obstacle avoidance
+#### 2. `robot_slam`
 
-### Face Recognition
-Template matching using normalized cross-correlation. The algorithm slides a template image across the source image to find the best match.
+Navigation and SLAM related package.
+It contains launch files and scripts for mapping, navigation, localization, RViz visualization, and multi-goal navigation.
 
-### Voice Processing
-Speech recognition and synthesis based on iFlytek's deep learning models, enabling natural language command parsing.
+Typical files include:
 
-### Motor Control
-Closed-loop PID control with encoder feedback. Four independent motor drivers communicate via CAN bus with individual IDs.
+* `gmapping.launch`
+* `navigation.launch`
+* `nav_cartographer.launch`
+* `multi_goal.launch`
+* `navigate.cpp`
+* `navigation_goals.py`
+* `navigation_multi_goals.py`
 
-## 📁 Repository Structure
+#### 3. `track_pkg`
 
+Visual tracking related package.
+It contains KCF-based tracking source files and OpenCV-related implementation.
+
+Typical files include:
+
+* `kcftracker.cpp`
+* `fhog.cpp`
+* `runtracker.cpp`
+
+#### 4. `mini2_arm`
+
+Robotic arm related package.
+It includes arm control logic, serial communication code, parameters, and launch files.
+
+Typical files include:
+
+* `control_center.cpp`
+* `mini2_arm.cpp`
+* `serialport.cpp`
+
+#### 5. `robot_base`
+
+Base platform related packages.
+This part contains bringup, control, robot description, IMU, and robot platform related components.
+
+Sub-packages include:
+
+* `zoo_bringup`
+* `zoo_control`
+* `zoo_description`
+* `zoo_imu`
+* `zoo_robot`
+
+### Integrated third-party / dependency packages
+
+The workspace also includes several integrated ROS packages and drivers, such as:
+
+* `apriltags2`
+* `apriltags2_ros`
+* `better_astar_global_planner-main`
+* `range_sensor_layer`
+* `openvino`
+* `ros_astra_camera-master`
+* `rplidar_ros`
+* `waterplus_map_tools`
+
+These packages support perception, planning, sensors, and robot system integration.
+
+## Repository Structure
+
+```text
+.
+├── mini2_ws/              # ROS catkin workspace
+├── Technical_Report.pdf   # Full technical report
+├── LICENSE                # BSD 3-Clause License
+└── README.md              # Project overview
 ```
-├── Technical_Report.pdf      # Full technical report (in Chinese)
-├── LICENSE                   # License file
-└── README.md                 # README file
+
+## Getting Started
+
+> Note: This repository is a competition project workspace.
+> Some modules depend on specific hardware, ROS environment, sensors, SDKs, or external libraries.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/lurenjia384/robocup-ros-robot-champion.git
+cd robocup-ros-robot-champion/mini2_ws
 ```
 
-## 🏆 Competition Achievement
+### 2. Build the workspace
 
-- **Event**: 2023 China Robot Competition & RoboCup China Open – Vision Challenge
-- **Result**: **First Place (Champion)** with perfect score and fastest completion time
-- **Competitors**: Beat robotics teams from Beijing Institute of Technology, Hunan University, and other top universities
-
-## 🧪 Future Improvements
-
-Based on our post-competition analysis, potential enhancements include:
-- Multi-sensor fusion to improve LiDAR accuracy
-- Hybrid path planning (combining Dijkstra with A* or genetic algorithms)
-- Deep learning-based face recognition (CNN) for better robustness to lighting and angle variations
-- Advanced filtering (e.g., Kalman filters) for improved navigation stability
-
-## 👥 Team
-
-- **Captain**: Yang Changchuan (杨常川) – Hardware/Software integration
-- **Member**: Wang Can (王粲) – Hardware/Software development
-- **Member**: Shao Haoyang (邵昊洋) – System maintenance and debugging
-- **Advisors**: Liu Andong (刘安东), Teng You (滕游)
-
-*Zhejiang University of Technology – BOOM不了一点队*
-
-## 📚 Citation
-
-If you find this work useful, please cite our technical report:
-
-```bibtex
-@techreport{zjut_robocup2023,
-  title={2023 China Robot Competition \& RoboCup China Open Technical Report},
-  author={Yang, Changchuan and Wang, Can and Shao, Haoyang},
-  institution={Zhejiang University of Technology},
-  year={2023}
-}
+```bash
+catkin_make
+source devel/setup.bash
 ```
 
-## 📝 License
+### 3. Example launch entry points
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Depending on your environment and hardware setup, you may start from launch files such as:
 
----
+```bash
+# Mapping
+roslaunch robot_slam gmapping.launch
 
-For questions or collaborations, feel free to open an issue or contact us!
+# Navigation
+roslaunch robot_slam navigation.launch
+
+# Voice module
+roslaunch robot_voice iat_publish.launch
+roslaunch robot_voice robot_tts.launch
+
+# Arm module
+roslaunch mini2_arm control_center.launch
+```
+
+Please adjust dependencies, hardware drivers, parameters, and launch combinations according to your actual platform.
+
+## Competition Achievement
+
+* Event: 2023 China Robot Competition & RoboCup China Open (Vision Challenge)
+* Result: Champion / First Place
+* Project type: ROS-based intelligent robot system for competition tasks
+
+## Technical Report
+
+The repository also includes the full technical report:
+
+* `Technical_Report.pdf`
+
+If you are interested in the overall system design, hardware architecture, and competition background, please refer to the report first.
+
+## Why This Repository Is Useful
+
+This repository is suitable for:
+
+* Students learning ROS-based robot system integration
+* Developers interested in competition robot software architecture
+* Researchers who want to study a complete robot workspace rather than only a paper/report
+* Anyone looking for references on integrating navigation, voice, perception, and control in one ROS project
+
+## Citation
+
+If this project helps your work, please cite the technical report or link to this repository.
+
+## License
+
+This project is licensed under the **BSD 3-Clause License**.
+See the `LICENSE` file for details.
+
+## Contact
+
+If you have questions, feel free to open an issue in this repository.
