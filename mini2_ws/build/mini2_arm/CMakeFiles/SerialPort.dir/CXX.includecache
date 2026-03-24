@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bcsh/mini2_ws/src/mini2_arm/include/mini2_arm/serialport.h
+string
+-
+vector
+-
+
+/home/bcsh/mini2_ws/src/mini2_arm/src/serialport.cpp
+../include/mini2_arm/serialport.h
+/home/bcsh/mini2_ws/src/mini2_arm/include/mini2_arm/serialport.h
+iostream
+-
+sys/file.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+termios.h
+-
+errno.h
+-
+

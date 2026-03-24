@@ -1,0 +1,19 @@
+<launch>
+  <arg name="joy_config" default="joystick" />
+  <arg name="joy_dev" default="/dev/input/js0" />
+  
+  <node pkg="joy" type="joy_node" name="joy_node">
+    <param name="dev" value="$(arg joy_dev)" />
+    <param name="deadzone" value="0.15" />
+    <param name="autorepeat_rate" value="20" />
+  </node>
+
+  <node pkg="zoo_control" type="joystick_transfer.py" name="joystick_transfer" output="screen">
+    <param name="rate" value="30" />
+    <param name="enable_button" value="4" />
+    <param name="axis_linear" value="1" />
+    <param name="axis_angular" value="0" />    
+    <param name="scale_linear" value="0.25" />
+    <param name="scale_angular" value="0.5" />
+  </node>
+</launch>

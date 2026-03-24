@@ -1,0 +1,18 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~wheel_diameter" : \b [int] The diameter of the wheel min: 10, default: 30, max: 500
+- \b "~wheel_track" : \b [int] The track of the wheel min: 50, default: 300, max: 1000
+- \b "~encoder_resolution" : \b [int] The resolution of the encoder min: 100, default: 1560, max: 32000
+- \b "~do_pid_interval" : \b [int] The interval of do pid min: 1, default: 10, max: 80
+- \b "~kp" : \b [int] Kp value min: 0, default: 20, max: 10000
+- \b "~ki" : \b [int] Ki value min: 0, default: 20, max: 32000
+- \b "~kd" : \b [int] Kd value min: 0, default: 20, max: 1000
+- \b "~ko" : \b [int] Ko value min: 0, default: 20, max: 1000
+- \b "~cmd_last_time" : \b [int] cmd_last_time value min: 0, default: 200, max: 1000
+- \b "~max_v_liner_x" : \b [int] liner x min: 0, default: 60, max: 500
+- \b "~max_v_liner_y" : \b [int] liner y min: 0, default: 0, max: 500
+- \b "~max_v_angular_z" : \b [int] angular z min: 0, default: 120, max: 2000
+- \b "~imu_type" : \b [int] imu type(`E`(69) for enable min: 0, default: 0, max: 255
+

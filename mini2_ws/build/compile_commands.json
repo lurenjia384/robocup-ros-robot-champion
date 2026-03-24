@@ -1,0 +1,732 @@
+[
+{
+  "directory": "/home/bcsh/mini2_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/gtest/googlemock",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/gtest/googlemock/gtest",
+  "command": "/usr/bin/c++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -O3 -DNDEBUG -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=gnu++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/apriltag.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/apriltag.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/apriltag.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/apriltag_quad_thresh.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/apriltag_quad_thresh.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/apriltag_quad_thresh.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/g2d.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/g2d.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/g2d.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/getopt.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/getopt.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/getopt.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/homography.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/homography.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/homography.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/image_f32.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/image_f32.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/image_f32.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/image_u8.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/image_u8.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/image_u8.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/image_u8x3.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/image_u8x3.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/image_u8x3.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/image_u8x4.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/image_u8x4.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/image_u8x4.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/matd.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/matd.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/matd.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/pam.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/pam.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/pam.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/pjpeg.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/pjpeg.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/pjpeg.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/pjpeg-idct.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/pjpeg-idct.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/pjpeg-idct.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/pnm.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/pnm.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/pnm.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/string_util.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/string_util.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/string_util.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/svd22.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/svd22.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/svd22.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/tag16h5.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/tag16h5.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/tag16h5.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/tag25h7.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/tag25h7.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/tag25h7.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/tag25h9.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/tag25h9.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/tag25h9.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/tag36artoolkit.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/tag36artoolkit.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/tag36artoolkit.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/tag36h10.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/tag36h10.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/tag36h10.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/tag36h11.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/tag36h11.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/tag36h11.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/time_util.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/time_util.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/time_util.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/unionfind.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/unionfind.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/unionfind.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/workerpool.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/workerpool.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/workerpool.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/zarray.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/zarray.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/zarray.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/zhash.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/zhash.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/zhash.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2",
+  "command": "/usr/bin/cc -DROS_BUILD_SHARED_LIBS=1 -Dapriltags2_EXPORTS -I/home/bcsh/mini2_ws/src/apriltags2/include -I/home/bcsh/mini2_ws/src/apriltags2/include/common  -std=gnu99 -fPIC -Wall -Wno-unused-parameter -Wno-unused-function -I. -O4 -fno-strict-overflow -O3 -DNDEBUG -fPIC   -o CMakeFiles/apriltags2.dir/src/zmaxheap.c.o   -c /home/bcsh/mini2_ws/src/apriltags2/src/zmaxheap.c",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2/src/zmaxheap.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/d435_camera",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"d435_camera\\\" -I/opt/ros/melodic/include -I/usr/include/eigen3 -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/intel/openvino_2020.3.341/opencv/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/camera.dir/src/camera.cpp.o -c /home/bcsh/mini2_ws/src/d435_camera/src/camera.cpp",
+  "file": "/home/bcsh/mini2_ws/src/d435_camera/src/camera.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/d435_camera",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"d435_camera\\\" -I/opt/ros/melodic/include -I/usr/include/eigen3 -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /opt/intel/openvino_2020.3.341/opencv/include  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rs_imshow.dir/src/rs_imshow.cpp.o -c /home/bcsh/mini2_ws/src/d435_camera/src/rs_imshow.cpp",
+  "file": "/home/bcsh/mini2_ws/src/d435_camera/src/rs_imshow.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_slam",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_slam\\\" -I/home/bcsh/mini2_ws/src/robot_slam/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/navigate_node.dir/src/navigate.cpp.o -c /home/bcsh/mini2_ws/src/robot_slam/src/navigate.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_slam/src/navigate.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -std=gnu++14 -o CMakeFiles/RGB_publish.dir/src/RGB_publish.cpp.o -c /home/bcsh/mini2_ws/src/robot_voice/src/RGB_publish.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/RGB_publish.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/cc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -o CMakeFiles/RGB_publish.dir/src/speech_recognizer.c.o   -c /home/bcsh/mini2_ws/src/robot_voice/src/speech_recognizer.c",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/speech_recognizer.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/cc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -o CMakeFiles/RGB_publish.dir/src/linuxrec.c.o   -c /home/bcsh/mini2_ws/src/robot_voice/src/linuxrec.c",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/linuxrec.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -std=gnu++14 -o CMakeFiles/iat_publish.dir/src/iat_publish.cpp.o -c /home/bcsh/mini2_ws/src/robot_voice/src/iat_publish.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/iat_publish.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/cc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -o CMakeFiles/iat_publish.dir/src/speech_recognizer.c.o   -c /home/bcsh/mini2_ws/src/robot_voice/src/speech_recognizer.c",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/speech_recognizer.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/cc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -o CMakeFiles/iat_publish.dir/src/linuxrec.c.o   -c /home/bcsh/mini2_ws/src/robot_voice/src/linuxrec.c",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/linuxrec.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -std=gnu++14 -o CMakeFiles/voice_assistant.dir/src/voice_assistant.cpp.o -c /home/bcsh/mini2_ws/src/robot_voice/src/voice_assistant.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/voice_assistant.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -std=gnu++14 -o CMakeFiles/talk_tts.dir/src/talk_tts.cpp.o -c /home/bcsh/mini2_ws/src/robot_voice/src/talk_tts.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/talk_tts.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -std=gnu++14 -o CMakeFiles/arrest.dir/src/arrest.cpp.o -c /home/bcsh/mini2_ws/src/robot_voice/src/arrest.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/arrest.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/cc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -o CMakeFiles/arrest.dir/src/speech_recognizer.c.o   -c /home/bcsh/mini2_ws/src/robot_voice/src/speech_recognizer.c",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/speech_recognizer.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/cc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -o CMakeFiles/arrest.dir/src/linuxrec.c.o   -c /home/bcsh/mini2_ws/src/robot_voice/src/linuxrec.c",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/linuxrec.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -std=gnu++14 -o CMakeFiles/tts_subscribe.dir/src/tts_subscribe.cpp.o -c /home/bcsh/mini2_ws/src/robot_voice/src/tts_subscribe.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/tts_subscribe.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -std=gnu++14 -o CMakeFiles/tuling_nlu_node.dir/src/tuling_nlu.cpp.o -c /home/bcsh/mini2_ws/src/robot_voice/src/tuling_nlu.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/tuling_nlu.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -std=gnu++14 -o CMakeFiles/asr_offline.dir/src/asr_offline.cpp.o -c /home/bcsh/mini2_ws/src/robot_voice/src/asr_offline.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/asr_offline.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/cc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -o CMakeFiles/asr_offline.dir/src/speech_recognizer.c.o   -c /home/bcsh/mini2_ws/src/robot_voice/src/speech_recognizer.c",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/speech_recognizer.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_voice",
+  "command": "/usr/bin/cc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"robot_voice\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_voice/include  -O3 -DNDEBUG   -std=c++11 -o CMakeFiles/asr_offline.dir/src/linuxrec.c.o   -c /home/bcsh/mini2_ws/src/robot_voice/src/linuxrec.c",
+  "file": "/home/bcsh/mini2_ws/src/robot_voice/src/linuxrec.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -Dlibuvc_camera_nodelet_EXPORTS -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/libuvc_camera_nodelet.dir/src/libuvc_camera/nodelet.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/libuvc_camera/nodelet.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/libuvc_camera/nodelet.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -Dlibuvc_camera_nodelet_EXPORTS -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/libuvc_camera_nodelet.dir/src/libuvc_camera/camera_driver.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/libuvc_camera/camera_driver.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/libuvc_camera/camera_driver.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -Dlibuvc_camera_nodelet_EXPORTS -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/libuvc_camera_nodelet.dir/src/astra_device_type.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_type.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_type.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/camera_node.dir/src/libuvc_camera/main.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/libuvc_camera/main.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/libuvc_camera/main.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/camera_node.dir/src/libuvc_camera/camera_driver.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/libuvc_camera/camera_driver.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/libuvc_camera/camera_driver.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/camera_node.dir/src/astra_device_type.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_type.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_type.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/cc -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG   -o CMakeFiles/astra_usb_reset.dir/src/usb_reset.c.o   -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/usb_reset.c",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/usb_reset.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/astra_list_devices.dir/src/list_devices.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/list_devices.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/list_devices.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_camera_nodelet_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_camera_nodelet.dir/ros/astra_camera_nodelet.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/ros/astra_camera_nodelet.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/ros/astra_camera_nodelet.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_driver_lib_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_driver_lib.dir/src/astra_driver.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_driver.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_driver.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_driver_lib_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_driver_lib.dir/src/astra_device_type.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_type.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_type.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_wrapper_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_wrapper.dir/src/astra_convert.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_convert.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_convert.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_wrapper_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_wrapper.dir/src/astra_device.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_wrapper_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_wrapper.dir/src/astra_device_info.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_info.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_info.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_wrapper_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_wrapper.dir/src/astra_timer_filter.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_timer_filter.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_timer_filter.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_wrapper_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_wrapper.dir/src/astra_frame_listener.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_frame_listener.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_frame_listener.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_wrapper_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_wrapper.dir/src/astra_device_manager.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_manager.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_manager.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_wrapper_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_wrapper.dir/src/astra_exception.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_exception.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_exception.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_wrapper_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_wrapper.dir/src/astra_video_mode.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_video_mode.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_video_mode.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dastra_wrapper_EXPORTS -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/astra_wrapper.dir/src/astra_device_type.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_type.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_device_type.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/astra_camera_node.dir/ros/astra_camera_node.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/ros/astra_camera_node.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/ros/astra_camera_node.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/ros_astra_camera-master",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"astra_camera\\\" -Dlibuvc_VERSION_MAJOR=0 -Dlibuvc_VERSION_MINOR=0 -Dlibuvc_VERSION_PATCH=6 -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/openni2  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/astra_test_wrapper.dir/test/test_wrapper.cpp.o -c /home/bcsh/mini2_ws/src/ros_astra_camera-master/test/test_wrapper.cpp",
+  "file": "/home/bcsh/mini2_ws/src/ros_astra_camera-master/test/test_wrapper.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DNGRAPH_JSON_DISABLE -DNGRAPH_VERSION=\\\"0.29.0-rc.0+1797d7f\\\" -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include -isystem /opt/intel/openvino_2020.3.341/deployment_tools/ngraph/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/safe_node.dir/src/safe.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/safe.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/safe.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DNGRAPH_JSON_DISABLE -DNGRAPH_VERSION=\\\"0.29.0-rc.0+1797d7f\\\" -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include -isystem /opt/intel/openvino_2020.3.341/deployment_tools/ngraph/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/RGBcube_node.dir/src/RGBcube.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/RGBcube.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/RGBcube.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/human_pose_node.dir/src/human_pose.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/human_pose.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/human_pose.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/human_pose_node.dir/src/human_pose_estimator.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/human_pose_estimator.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/human_pose_estimator.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/human_pose_node.dir/src/peak.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/peak.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/peak.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/human_pose_node.dir/src/render_human_pose.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/render_human_pose.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/render_human_pose.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/human_pose_node.dir/src/human_pose_node.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/human_pose_node.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/human_pose_node.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -I/opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include  -std=c++11 -O3 -Wall -g   -std=gnu++14 -o CMakeFiles/monitors.dir/include/monitors/presenter.cpp.o -c /home/bcsh/mini2_ws/src/openvino/include/monitors/presenter.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/include/monitors/presenter.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -I/opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include  -std=c++11 -O3 -Wall -g   -std=gnu++14 -o CMakeFiles/monitors.dir/include/monitors/cpu_monitor.cpp.o -c /home/bcsh/mini2_ws/src/openvino/include/monitors/cpu_monitor.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/include/monitors/cpu_monitor.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -I/opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include  -std=c++11 -O3 -Wall -g   -std=gnu++14 -o CMakeFiles/monitors.dir/include/monitors/memory_monitor.cpp.o -c /home/bcsh/mini2_ws/src/openvino/include/monitors/memory_monitor.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/include/monitors/memory_monitor.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DNGRAPH_JSON_DISABLE -DNGRAPH_VERSION=\\\"0.29.0-rc.0+1797d7f\\\" -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include -isystem /opt/intel/openvino_2020.3.341/deployment_tools/ngraph/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/obj_node.dir/src/obj.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/obj.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/obj.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DNGRAPH_JSON_DISABLE -DNGRAPH_VERSION=\\\"0.29.0-rc.0+1797d7f\\\" -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include -isystem /opt/intel/openvino_2020.3.341/deployment_tools/ngraph/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/face_detect_node.dir/src/face_detect.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/face_detect.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/face_detect.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DNGRAPH_JSON_DISABLE -DNGRAPH_VERSION=\\\"0.29.0-rc.0+1797d7f\\\" -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include -isystem /opt/intel/openvino_2020.3.341/deployment_tools/ngraph/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/color_node.dir/src/color.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/color.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/color.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/openvino",
+  "command": "/usr/bin/c++  -DNGRAPH_JSON_DISABLE -DNGRAPH_VERSION=\\\"0.29.0-rc.0+1797d7f\\\" -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"openvino\\\" -I/home/bcsh/mini2_ws/src/openvino/include/monitor -I/home/bcsh/mini2_ws/src/openvino/include/human_pose -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/deployment_tools/inference_engine/include -isystem /opt/intel/openvino_2020.3.341/deployment_tools/ngraph/include  -std=c++11 -O3 -Wall -g   -Wno-error=deprecated-declarations -std=gnu++14 -o CMakeFiles/pin_node.dir/src/pin.cpp.o -c /home/bcsh/mini2_ws/src/openvino/src/pin.cpp",
+  "file": "/home/bcsh/mini2_ws/src/openvino/src/pin.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/rplidar_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/include -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/src -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /home/bcsh/mini2_ws/src/rplidar_ros/src/client.cpp",
+  "file": "/home/bcsh/mini2_ws/src/rplidar_ros/src/client.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/rplidar_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/include -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/src -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rplidarNode.dir/src/node.cpp.o -c /home/bcsh/mini2_ws/src/rplidar_ros/src/node.cpp",
+  "file": "/home/bcsh/mini2_ws/src/rplidar_ros/src/node.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/rplidar_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/include -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/src -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o -c /home/bcsh/mini2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp",
+  "file": "/home/bcsh/mini2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/rplidar_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/include -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/src -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o -c /home/bcsh/mini2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp",
+  "file": "/home/bcsh/mini2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/rplidar_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/include -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/src -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o -c /home/bcsh/mini2_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp",
+  "file": "/home/bcsh/mini2_ws/src/rplidar_ros/sdk/src/arch/linux/timer.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/rplidar_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/include -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/src -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o -c /home/bcsh/mini2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp",
+  "file": "/home/bcsh/mini2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/rplidar_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/include -I/home/bcsh/mini2_ws/src/rplidar_ros/./sdk/src -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o -c /home/bcsh/mini2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp",
+  "file": "/home/bcsh/mini2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"apriltags2_ros\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/apriltags2_ros/include -I/home/bcsh/mini2_ws/src/apriltags2/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/opencv/include   -O3 -funsafe-loop-optimizations -fsee -funroll-loops -fno-math-errno -funsafe-math-optimizations -ffinite-math-only -fno-signed-zeros  -g   -Wall -O3 -std=gnu++11 -o CMakeFiles/apriltags2_ros_single_image_client_node.dir/src/apriltags2_ros_single_image_client_node.cpp.o -c /home/bcsh/mini2_ws/src/apriltags2_ros/src/apriltags2_ros_single_image_client_node.cpp",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2_ros/src/apriltags2_ros_single_image_client_node.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"apriltags2_ros\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/apriltags2_ros/include -I/home/bcsh/mini2_ws/src/apriltags2/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/opencv/include   -O3 -funsafe-loop-optimizations -fsee -funroll-loops -fno-math-errno -funsafe-math-optimizations -ffinite-math-only -fno-signed-zeros  -g   -Wall -O3 -std=gnu++11 -o CMakeFiles/apriltags2_ros_continuous_node.dir/src/apriltags2_ros_continuous_node.cpp.o -c /home/bcsh/mini2_ws/src/apriltags2_ros/src/apriltags2_ros_continuous_node.cpp",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2_ros/src/apriltags2_ros_continuous_node.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"apriltags2_ros\\\" -Dsingle_image_detector_EXPORTS -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/apriltags2_ros/include -I/home/bcsh/mini2_ws/src/apriltags2/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/opencv/include   -O3 -funsafe-loop-optimizations -fsee -funroll-loops -fno-math-errno -funsafe-math-optimizations -ffinite-math-only -fno-signed-zeros  -g -fPIC   -Wall -O3 -std=gnu++11 -o CMakeFiles/single_image_detector.dir/src/single_image_detector.cpp.o -c /home/bcsh/mini2_ws/src/apriltags2_ros/src/single_image_detector.cpp",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2_ros/src/single_image_detector.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"apriltags2_ros\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/apriltags2_ros/include -I/home/bcsh/mini2_ws/src/apriltags2/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/opencv/include   -O3 -funsafe-loop-optimizations -fsee -funroll-loops -fno-math-errno -funsafe-math-optimizations -ffinite-math-only -fno-signed-zeros  -g   -Wall -O3 -std=gnu++11 -o CMakeFiles/apriltags2_ros_single_image_server_node.dir/src/apriltags2_ros_single_image_server_node.cpp.o -c /home/bcsh/mini2_ws/src/apriltags2_ros/src/apriltags2_ros_single_image_server_node.cpp",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2_ros/src/apriltags2_ros_single_image_server_node.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"apriltags2_ros\\\" -Dcommon_EXPORTS -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/apriltags2_ros/include -I/home/bcsh/mini2_ws/src/apriltags2/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/opencv/include   -O3 -funsafe-loop-optimizations -fsee -funroll-loops -fno-math-errno -funsafe-math-optimizations -ffinite-math-only -fno-signed-zeros  -g -fPIC   -Wall -O3 -std=gnu++11 -o CMakeFiles/common.dir/src/common_functions.cpp.o -c /home/bcsh/mini2_ws/src/apriltags2_ros/src/common_functions.cpp",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2_ros/src/common_functions.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/apriltags2_ros",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"apriltags2_ros\\\" -Dcontinuous_detector_EXPORTS -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/apriltags2_ros/include -I/home/bcsh/mini2_ws/src/apriltags2/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -I/usr/include/eigen3 -isystem /opt/intel/openvino_2020.3.341/opencv/include   -O3 -funsafe-loop-optimizations -fsee -funroll-loops -fno-math-errno -funsafe-math-optimizations -ffinite-math-only -fno-signed-zeros  -g -fPIC   -Wall -O3 -std=gnu++11 -o CMakeFiles/continuous_detector.dir/src/continuous_detector.cpp.o -c /home/bcsh/mini2_ws/src/apriltags2_ros/src/continuous_detector.cpp",
+  "file": "/home/bcsh/mini2_ws/src/apriltags2_ros/src/continuous_detector.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/mini2_arm",
+  "command": "/usr/bin/c++  -DMini2Arm_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mini2_arm\\\" -I/home/bcsh/mini2_ws/src/mini2_arm/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/Mini2Arm.dir/src/mini2_arm.cpp.o -c /home/bcsh/mini2_ws/src/mini2_arm/src/mini2_arm.cpp",
+  "file": "/home/bcsh/mini2_ws/src/mini2_arm/src/mini2_arm.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/mini2_arm",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mini2_arm\\\" -I/home/bcsh/mini2_ws/src/mini2_arm/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/control_center.dir/src/control_center.cpp.o -c /home/bcsh/mini2_ws/src/mini2_arm/src/control_center.cpp",
+  "file": "/home/bcsh/mini2_ws/src/mini2_arm/src/control_center.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/mini2_arm",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mini2_arm\\\" -DSerialPort_EXPORTS -I/home/bcsh/mini2_ws/src/mini2_arm/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/SerialPort.dir/src/serialport.cpp.o -c /home/bcsh/mini2_ws/src/mini2_arm/src/serialport.cpp",
+  "file": "/home/bcsh/mini2_ws/src/mini2_arm/src/serialport.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/track_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"track_pkg\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/home/bcsh/mini2_ws/build -I/home/bcsh/mini2_ws/src/src   -std=c++11 -Wall -Wextra -pedantic -O2 -Wno-long-long -fno-omit-frame-pointer -O3 -DNDEBUG   -std=c++0x -O3 -std=gnu++14 -o CMakeFiles/kcf_node.dir/src/fhog.cpp.o -c /home/bcsh/mini2_ws/src/track_pkg/src/fhog.cpp",
+  "file": "/home/bcsh/mini2_ws/src/track_pkg/src/fhog.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/track_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"track_pkg\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/home/bcsh/mini2_ws/build -I/home/bcsh/mini2_ws/src/src   -std=c++11 -Wall -Wextra -pedantic -O2 -Wno-long-long -fno-omit-frame-pointer -O3 -DNDEBUG   -std=c++0x -O3 -std=gnu++14 -o CMakeFiles/kcf_node.dir/src/kcftracker.cpp.o -c /home/bcsh/mini2_ws/src/track_pkg/src/kcftracker.cpp",
+  "file": "/home/bcsh/mini2_ws/src/track_pkg/src/kcftracker.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/track_pkg",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"track_pkg\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv -isystem /opt/intel/openvino_2020.3.341/opencv/include -I/home/bcsh/mini2_ws/build -I/home/bcsh/mini2_ws/src/src   -std=c++11 -Wall -Wextra -pedantic -O2 -Wno-long-long -fno-omit-frame-pointer -O3 -DNDEBUG   -std=c++0x -O3 -std=gnu++14 -o CMakeFiles/kcf_node.dir/src/runtracker.cpp.o -c /home/bcsh/mini2_ws/src/track_pkg/src/runtracker.cpp",
+  "file": "/home/bcsh/mini2_ws/src/track_pkg/src/runtracker.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/better_astar_global_planner-main",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"better_astar_global_planner\\\" -Dbetter_astar_global_planner_lib_EXPORTS -I/home/bcsh/mini2_ws/src/better_astar_global_planner-main/include/better_astar_global_planner -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3  -O3 -DNDEBUG -fPIC   -std=gnu++14 -o CMakeFiles/better_astar_global_planner_lib.dir/src/better_astar.cpp.o -c /home/bcsh/mini2_ws/src/better_astar_global_planner-main/src/better_astar.cpp",
+  "file": "/home/bcsh/mini2_ws/src/better_astar_global_planner-main/src/better_astar.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/range_sensor_layer",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"range_sensor_layer\\\" -Drange_sensor_layer_EXPORTS -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/range_sensor_layer/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3  -O3 -DNDEBUG -fPIC   -Wall -Werror -std=gnu++14 -o CMakeFiles/range_sensor_layer.dir/src/range_sensor_layer.cpp.o -c /home/bcsh/mini2_ws/src/range_sensor_layer/src/range_sensor_layer.cpp",
+  "file": "/home/bcsh/mini2_ws/src/range_sensor_layer/src/range_sensor_layer.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/arrest_nav_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/arrest_nav.dir/src/arrest_nav.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/arrest_nav.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/arrest_nav.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/arrest_nav_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/arrest_nav.dir/arrest_nav_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/arrest_nav_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/arrest_nav_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/pose_navi_server_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/pose_navi_server.dir/src/pose_navi_server.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/pose_navi_server.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/pose_navi_server.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/pose_navi_server_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/pose_navi_server.dir/pose_navi_server_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/pose_navi_server_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/pose_navi_server_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_navi_server_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_navi_server.dir/src/wp_navi_server.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_navi_server.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_navi_server.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_navi_server_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_navi_server.dir/wp_navi_server_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/wp_navi_server_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_navi_server_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/charger_get_position_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/charger_get_position.dir/src/charger_get_position.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/charger_get_position.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/charger_get_position.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/charger_get_position_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/charger_get_position.dir/charger_get_position_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/charger_get_position_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/charger_get_position_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_remote_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_nav_remote.dir/src/wp_nav_remote.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_nav_remote.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_nav_remote.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/cc -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_remote_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -o CMakeFiles/wp_nav_remote.dir/src/network/UDPServer.c.o   -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/network/UDPServer.c",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/network/UDPServer.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_remote_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_nav_remote.dir/wp_nav_remote_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_remote_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_remote_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_saver_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_saver.dir/src/wp_saver.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_saver.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_saver.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_saver_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_saver.dir/wp_saver_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/wp_saver_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_saver_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_test_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_nav_test.dir/src/wp_nav_test.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_nav_test.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_nav_test.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_test_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_nav_test.dir/wp_nav_test_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_test_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_test_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_odom_report_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_nav_odom_report.dir/src/wp_nav_odom_report.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_nav_odom_report.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_nav_odom_report.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/cc -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_odom_report_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -o CMakeFiles/wp_nav_odom_report.dir/src/network/UDPClient.c.o   -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/network/UDPClient.c",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/network/UDPClient.c"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_odom_report_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_nav_odom_report.dir/wp_nav_odom_report_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_odom_report_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_nav_odom_report_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_manager_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_manager.dir/src/wp_manager.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_manager.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_manager.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_manager_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_manager.dir/wp_manager_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/wp_manager_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_manager_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_edit_node_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_edit_node.dir/src/wp_edit_node.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_edit_node.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/wp_edit_node.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_NO_KEYWORDS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -I/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_edit_node_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/wp_edit_node.dir/wp_edit_node_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/wp_edit_node_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/wp_edit_node_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -Dwaterplus_map_tools_EXPORTS -I/home/bcsh/mini2_ws/build/waterplus_map_tools/waterplus_map_tools_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/waterplus_map_tools.dir/src/add_waypoint_tool.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/add_waypoint_tool.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/add_waypoint_tool.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -Dwaterplus_map_tools_EXPORTS -I/home/bcsh/mini2_ws/build/waterplus_map_tools/waterplus_map_tools_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/waterplus_map_tools.dir/src/add_charger_tool.cpp.o -c /home/bcsh/mini2_ws/src/waterplus_map_tools/src/add_charger_tool.cpp",
+  "file": "/home/bcsh/mini2_ws/src/waterplus_map_tools/src/add_charger_tool.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/waterplus_map_tools",
+  "command": "/usr/bin/c++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_KEYWORDS -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"waterplus_map_tools\\\" -Dwaterplus_map_tools_EXPORTS -I/home/bcsh/mini2_ws/build/waterplus_map_tools/waterplus_map_tools_autogen/include -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/waterplus_map_tools/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/OGRE/Overlay -I/usr/include/OGRE -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/waterplus_map_tools.dir/waterplus_map_tools_autogen/mocs_compilation.cpp.o -c /home/bcsh/mini2_ws/build/waterplus_map_tools/waterplus_map_tools_autogen/mocs_compilation.cpp",
+  "file": "/home/bcsh/mini2_ws/build/waterplus_map_tools/waterplus_map_tools_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_base/zoo_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zoo_bringup\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include/zoo_bringup  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/zoo_driver.dir/src/main.cpp.o -c /home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/main.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/main.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_base/zoo_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zoo_bringup\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include/zoo_bringup  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/zoo_driver.dir/src/base_driver_config.cpp.o -c /home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/base_driver_config.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/base_driver_config.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_base/zoo_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zoo_bringup\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include/zoo_bringup  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/zoo_driver.dir/src/base_driver.cpp.o -c /home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/base_driver.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/base_driver.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_base/zoo_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zoo_bringup\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include/zoo_bringup  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/zoo_driver.dir/src/data_holder.cpp.o -c /home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/data_holder.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/data_holder.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_base/zoo_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zoo_bringup\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include/zoo_bringup  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/zoo_driver.dir/src/simple_dataframe_master.cpp.o -c /home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/simple_dataframe_master.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/simple_dataframe_master.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_base/zoo_bringup",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zoo_bringup\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include/zoo_bringup  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/zoo_driver.dir/src/serial_transport.cpp.o -c /home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/serial_transport.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/src/serial_transport.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_base/zoo_imu",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zoo_imu\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/robot_base/zoo_imu/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_base/zoo_imu/include/zoo_imu  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/zoo_imu.dir/src/zoo_imu.cpp.o -c /home/bcsh/mini2_ws/src/robot_base/zoo_imu/src/zoo_imu.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_base/zoo_imu/src/zoo_imu.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_base/zoo_imu",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zoo_imu\\\" -I/home/bcsh/mini2_ws/devel/include -I/home/bcsh/mini2_ws/src/robot_base/zoo_imu/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/bcsh/mini2_ws/src/robot_base/zoo_imu/include/zoo_imu  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/zoo_imu.dir/src/zoo_imu_node.cpp.o -c /home/bcsh/mini2_ws/src/robot_base/zoo_imu/src/zoo_imu_node.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_base/zoo_imu/src/zoo_imu_node.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_base/zoo_robot",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zoo_robot\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/bcsh/mini2_ws/src/robot_base/zoo_robot/include -I/home/bcsh/mini2_ws/src/robot_base/zoo_robot/include/zoo_robot  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/robot_pos_estimator.dir/src/robot_pos_estimator.cpp.o -c /home/bcsh/mini2_ws/src/robot_base/zoo_robot/src/robot_pos_estimator.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_base/zoo_robot/src/robot_pos_estimator.cpp"
+},
+{
+  "directory": "/home/bcsh/mini2_ws/build/robot_base/zoo_robot",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"zoo_robot\\\" -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/melodic/share/orocos_kdl/cmake/../../../include -I/usr/include/eigen3 -I/home/bcsh/mini2_ws/src/robot_base/zoo_robot/include -I/home/bcsh/mini2_ws/src/robot_base/zoo_robot/include/zoo_robot  -O3 -DNDEBUG   -std=gnu++14 -o CMakeFiles/collision_avoidance.dir/src/collision_avoidance.cpp.o -c /home/bcsh/mini2_ws/src/robot_base/zoo_robot/src/collision_avoidance.cpp",
+  "file": "/home/bcsh/mini2_ws/src/robot_base/zoo_robot/src/collision_avoidance.cpp"
+}
+]

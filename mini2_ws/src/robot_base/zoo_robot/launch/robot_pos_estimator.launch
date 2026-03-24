@@ -1,0 +1,7 @@
+<launch>
+	<!-- run the position_estimator.cpp -->
+	<node pkg="zoo_robot" type="robot_pos_estimator" name="robot_pos_estimator" output="screen">
+	    
+	</node>
+</launch>
+

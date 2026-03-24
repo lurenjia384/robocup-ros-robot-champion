@@ -1,0 +1,28 @@
+Port_name : /dev/arm
+
+PID_Control_P : 0.2
+
+Max_yaw_vel : 0.2
+
+Yaw_th : 0.4
+
+target_id : 0
+
+A_0_x : 0.5
+A_0_y : 0.7
+A_0_yaw: 0.0
+
+A_1_x : 0.7
+A_1_y : 0.9
+A_1_yaw: 0.0
+
+A_2_x : 0.7
+A_2_y : 1.1
+A_2_yaw : -0.0
+
+B_x : 0.0
+B_y : 0.0
+B_z : 0.0
+
+vel_th : 0.0008
+

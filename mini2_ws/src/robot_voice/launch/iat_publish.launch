@@ -1,0 +1,7 @@
+<launch>
+  <arg name="ASR_TOPIC" value="/robot_voice/asr_topic"/>
+  <arg name="XUNFEI_ID" value="6010cacd"/>
+  <node name="iat" pkg="robot_voice" type="iat_publish" output="screen">
+    <param name="xunfei_id" type="String" value="$(arg XUNFEI_ID)"/>
+  </node>
+</launch>

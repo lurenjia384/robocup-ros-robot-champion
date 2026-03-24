@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="orbbec_linux1404" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="orbbc_nano">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/orbbec/caktin_ws/src" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="orbbec_linux1404">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/orbbec/oscar/test_depth_rgb_point/catkin_ws/src" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="oscar_1604">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/oscar/testROS_RGB_Point/catkint_ws/src" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

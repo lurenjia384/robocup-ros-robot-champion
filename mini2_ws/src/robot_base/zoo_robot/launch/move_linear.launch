@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="zoo_robot" type="move_linear.py" respawn="false" name="move_linear" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/devel
+
+Name: zoo_robot
+Description: Description of zoo_robot
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/install
+
+Name: track_pkg
+Description: Description of track_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

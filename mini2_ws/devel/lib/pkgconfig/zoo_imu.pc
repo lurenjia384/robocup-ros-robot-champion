@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/devel
+
+Name: zoo_imu
+Description: Description of zoo_imu
+Version: 0.0.0
+Cflags: -I/home/bcsh/mini2_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

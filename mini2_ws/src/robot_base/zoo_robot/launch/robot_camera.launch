@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find zoo_bringup)/launch/bringup_with_imu.launch"/>
+  <include file="$(find zoo_bringup)/launch/model.launch"/>
+  <include file="$(find usb_cam)/launch/usb_cam-test.launch"/>
+</launch>

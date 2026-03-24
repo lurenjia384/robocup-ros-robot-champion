@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/devel
+
+Name: robot_voice
+Description: Description of robot_voice
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

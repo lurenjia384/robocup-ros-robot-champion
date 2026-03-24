@@ -1,0 +1,5 @@
+<launch>
+    <node name="zoo_driver" pkg="zoo_bringup" type="zoo_driver" output="screen">
+        <rosparam file="$(find zoo_bringup)/params/base_params.yaml" command="load"/>
+    </node>
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+
+  <arg name="map_name" default="my_lab" />
+
+  <node name="map_saver" pkg="map_server" type="map_saver" args="-f $(find robot_slam)/maps/$(arg map_name)"/>
+
+</launch>

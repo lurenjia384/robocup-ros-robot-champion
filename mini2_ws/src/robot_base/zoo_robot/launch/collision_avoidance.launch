@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="zoo_robot" type="collision_avoidance" name="collision_avoidance" output="screen">
+                <rosparam command="load" file="$(find zoo_robot)/params/collision_avoidance.yaml" />
+	</node>
+</launch>

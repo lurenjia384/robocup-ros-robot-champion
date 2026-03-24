@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/bcsh/mini2_ws/devel/lib/libmonitors.a  CMakeFiles/monitors.dir/include/monitors/presenter.cpp.o CMakeFiles/monitors.dir/include/monitors/cpu_monitor.cpp.o CMakeFiles/monitors.dir/include/monitors/memory_monitor.cpp.o
+/usr/bin/ranlib /home/bcsh/mini2_ws/devel/lib/libmonitors.a

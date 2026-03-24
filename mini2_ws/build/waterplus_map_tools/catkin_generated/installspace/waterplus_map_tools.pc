@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/install
+
+Name: waterplus_map_tools
+Description: Description of waterplus_map_tools
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lwaterplus_map_tools
+Requires: message_runtime

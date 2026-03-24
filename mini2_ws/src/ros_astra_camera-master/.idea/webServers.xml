@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="031afe6c-1dc0-4afd-ad0c-eec5819f1da0" name="orbbc_nano">
+        <fileTransfer rootFolder="/home/orbbec" accessType="SFTP" host="10.10.6.38" port="22" sshConfigId="6cf619ca-7dee-4b70-b06a-ed7260a4c9b1" sshConfig="orbbec@10.10.6.38:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2b5e000d-bfb6-41c2-857f-514b8db66c4b" name="orbbec_linux1404">
+        <fileTransfer accessType="SFTP" host="10.10.22.150" port="22" sshConfigId="8c62383e-8134-4970-90f8-abebd38ff0c5" sshConfig="orbbec@10.10.22.150:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="a8237cd6-9038-43d8-a7bf-4d25fb5a6f7d" name="oscar_1604">
+        <fileTransfer rootFolder="/home/oscar" accessType="SFTP" host="192.168.50.197" port="22" sshConfigId="52669fc4-d992-434a-8546-fa53b3ad58f3" sshConfig="oscar@192.168.50.197:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

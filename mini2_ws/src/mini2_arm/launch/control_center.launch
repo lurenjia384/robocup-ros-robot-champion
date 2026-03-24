@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="mini2_arm" type="control_center" name="control_center" output="screen">
+	    <rosparam command="load" file="$(find mini2_arm)/param/PID.yaml" /> 
+	</node>
+</launch>
+
+

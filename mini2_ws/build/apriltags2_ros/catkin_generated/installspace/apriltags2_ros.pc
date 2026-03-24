@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/install
+
+Name: apriltags2_ros
+Description: Description of apriltags2_ros
+Version: 1.0.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3 -I/opt/intel/openvino_2020.3.341/opencv/include
+Libs: -L${prefix}/lib /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_calib3d.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_core.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_dnn.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_features2d.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_flann.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_gapi.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_highgui.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_imgcodecs.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_imgproc.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_ml.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_objdetect.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_photo.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_stitching.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_video.so.4.3.0 /opt/intel/openvino_2020.3.341/opencv/lib/libopencv_videoio.so.4.3.0
+Requires: apriltags2 geometry_msgs image_transport roscpp sensor_msgs std_msgs message_runtime cv_bridge tf nodelet pluginlib

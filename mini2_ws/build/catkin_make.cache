@@ -1,0 +1,2 @@
+apriltags2:apriltags2_ros:better_astar_global_planner-main:d435_camera:mini2_arm:openvino:range_sensor_layer:robot_base/zoo_bringup:robot_base/zoo_control:robot_base/zoo_description:robot_base/zoo_imu:robot_base/zoo_robot:robot_slam:robot_voice:ros_astra_camera-master:rplidar_ros:track_pkg:waterplus_map_tools
+-DCATKIN_DEVEL_PREFIX=/home/bcsh/mini2_ws/devel -DCMAKE_INSTALL_PREFIX=/home/bcsh/mini2_ws/install -G Unix Makefiles

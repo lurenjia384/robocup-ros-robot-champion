@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bcsh/mini2_ws/src/waterplus_map_tools/include/UDPClient.h
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+
+/home/bcsh/mini2_ws/src/waterplus_map_tools/src/network/UDPClient.c
+UDPClient.h
+/home/bcsh/mini2_ws/src/waterplus_map_tools/src/network/UDPClient.h
+

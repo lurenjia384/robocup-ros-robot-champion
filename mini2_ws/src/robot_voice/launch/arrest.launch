@@ -1,0 +1,16 @@
+<launch>
+  <arg name="ASR_TOPIC" value="/robot_voice/asr_topic"/>
+  <arg name="NLU_TOPIC" value="/order"/>
+  <arg name="TTS_TOPIC" value="/robot_voice/tts_topic"/>
+  <arg name="XUNFEI_ID" value="6010cacd"/>
+  <arg name="TULING_ID" value="bd5ec2fb48824137935d01e2c594979f"/>
+  <node name="arrest" pkg="robot_voice" type="arrest" output="screen">
+    <param name="xunfei_id" type="String" value="$(arg XUNFEI_ID)"/>
+    <param name="asr_topic" type="String" value="$(arg ASR_TOPIC)"/>
+    <param name="nlu_topic" type="String" value="$(arg NLU_TOPIC)"/>
+  </node>
+  <node name="tts" pkg="robot_voice" type="tts_subscribe" output="screen">
+    <param name="xunfei_id" type="String" value="$(arg XUNFEI_ID)"/>
+    <param name="tts_topic" type="String" value="$(arg TTS_TOPIC)"/>
+  </node>
+</launch>

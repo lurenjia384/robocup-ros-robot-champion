@@ -1,0 +1,6 @@
+<launch>
+  <include file="$(find zoo_bringup)/launch/bringup_with_imu.launch"/>
+  <include file="$(find zoo_bringup)/launch/model.launch"/>
+  <include file="$(find zoo_bringup)/launch/rplidar.launch"/>
+  <include file="$(find zoo_robot)/launch/box_filter.launch"/>
+</launch>

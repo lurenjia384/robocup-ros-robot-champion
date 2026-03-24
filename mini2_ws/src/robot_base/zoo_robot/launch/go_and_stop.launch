@@ -1,0 +1,8 @@
+<launch>
+
+  <node pkg="zoo_robot" type="go_and_stop.py" name="go_and_stop" output="screen">
+    <param name="speed" value="0.2" type="double"/>
+    <param name="turn" value="1.0" type="double"/>
+  </node>
+  
+</launch>

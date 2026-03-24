@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="range_sensor_layer" pkg="range_sensor_layer" type="range_sensor_layer">
+  <param name="enabled" type="bool" value="True" />
+  <param name="phi" type="double" value="1.2" />
+  <param name="inflate_cone" type="double" value="1.0" />
+  <param name="no_readings_timeout" type="double" value="0.0" />
+  <param name="clear_threshold" type="double" value="0.2" />
+  <param name="mark_threshold" type="double" value="0.8" />
+  <param name="clear_on_max_reading" type="bool" value="False" />
+</node>
+\endverbatim
+

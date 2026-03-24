@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/install
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.10.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

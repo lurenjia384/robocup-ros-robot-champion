@@ -1,0 +1,6 @@
+<launch>
+
+  <node pkg="zoo_robot" type="get_pos_demo.py" name="get_pose" output="screen">
+  </node>
+  
+</launch>

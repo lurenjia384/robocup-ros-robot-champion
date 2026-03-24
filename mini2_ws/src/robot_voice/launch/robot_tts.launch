@@ -1,0 +1,8 @@
+<launch>
+  <arg name="TTS_TOPIC" value="/robot_voice/tts_topic"/>
+  <arg name="XUNFEI_ID" value="6010cacd"/>
+  <node name="tts" pkg="robot_voice" type="tts_subscribe" output="screen">
+    <param name="xunfei_id" type="String" value="$(arg XUNFEI_ID)"/>
+    <param name="tts_topic" type="String" value="$(arg TTS_TOPIC)"/>
+  </node>
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+  <param name="use_sim_time" value="true" />
+  <arg name="map_name" default="my_map.yaml" />
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find robot_slam)/maps/$(arg map_name)"/>
+  <include file="$(find robot_slam)/launch/zoo_2Dlidar_localication.launch"/>  
+  <include file="$(find robot_slam)/launch/include/move_base.launch.xml"/>
+</launch>

@@ -1,0 +1,13 @@
+port: /dev/ttyACM0
+buadrate: 115200
+
+base_frame: base_link
+odom_frame: odom
+odom_topic: odom
+
+publish_tf: true
+# topic
+cmd_vel_topic: cmd_vel
+
+#pid debug
+out_pid_debug_enable: false

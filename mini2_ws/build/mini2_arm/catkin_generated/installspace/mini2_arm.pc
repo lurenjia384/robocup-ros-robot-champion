@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/install
+
+Name: mini2_arm
+Description: Description of mini2_arm
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmini2_arm
+Requires: roscpp rospy actionlib_msgs geometry_msgs std_msgs tf tf2_ros

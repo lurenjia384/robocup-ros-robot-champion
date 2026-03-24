@@ -1,0 +1,96 @@
+<robot
+  name="zoo_description">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.021088 -2.5229E-07 -0.0016872"
+        rpy="0 0 0" />
+      <mass
+        value="1.1852" />
+      <inertia
+        ixx="0.0044133"
+        ixy="2.4428E-08"
+        ixz="-0.00050667"
+        iyy="0.0048259"
+        iyz="-9.0612E-09"
+        izz="0.0079062" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0.055 0 0.05"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://zoo_description/meshes/zoo/base_link.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.1 0.1 0.1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://zoo_description/meshes/zoo/base_link.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="laser_link">
+    <inertial>
+      <origin
+        xyz="-0.001753 9.7044E-08 0.018367"
+        rpy="0 0 0" />
+      <mass
+        value="0.17934" />
+      <inertia
+        ixx="8.4514E-05"
+        ixy="7.288E-12"
+        ixz="3.6379E-06"
+        iyy="7.9969E-05"
+        iyz="-3.7962E-10"
+        izz="0.00011888" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://zoo_description/meshes/zoo/laser_link.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.3 0.3 0.3 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://zoo_description/meshes/zoo/laser_link.stl" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="laser_link_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0.09"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="laser_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

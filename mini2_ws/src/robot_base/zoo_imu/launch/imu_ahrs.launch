@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="zoo_imu" type="zoo_imu" name="zoo_imu" output="screen" respawn="false" />
+  <node pkg="imu_filter_madgwick" type="imu_filter_node" name="imu_filter_madgwick" output="screen" respawn="false" />
+</launch>

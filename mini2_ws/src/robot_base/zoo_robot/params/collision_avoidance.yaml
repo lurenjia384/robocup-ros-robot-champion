@@ -1,0 +1,40 @@
+##Parameter for collision_avoidance.cpp
+
+##  期望位置_x;
+target_x : 1.5
+
+## 期望位置_y
+target_y : -1.5
+
+##追踪部分位置环P
+p_xy : 1.4
+
+## 单位:米
+R_outside : 0.6
+
+## 单位:米
+R_inside : 0.4
+
+## 追踪部分速度限幅
+vel_track_max : 0.08
+
+## 大圈比例系数
+p_R : 0.6
+
+## 小圈比例系数
+p_r : 0.9
+
+## 避障部分最大速度
+vel_collision_max : 0.082
+
+## 总速度最大速度
+vel_sp_max : 0.015
+
+
+## 激光雷达范围设定
+range_min : 0
+range_max : 359
+
+
+
+

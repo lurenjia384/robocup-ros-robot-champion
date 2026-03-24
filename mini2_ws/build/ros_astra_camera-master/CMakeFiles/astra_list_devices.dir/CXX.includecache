@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/astra_camera/astra_device_info.h
+ostream
+-
+boost/cstdint.hpp
+-
+
+/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/astra_camera/astra_device_manager.h
+astra_camera/astra_device_info.h
+/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/astra_camera/astra_camera/astra_device_info.h
+boost/thread/mutex.hpp
+-
+vector
+-
+string
+-
+ostream
+-
+
+/home/bcsh/mini2_ws/src/ros_astra_camera-master/include/astra_camera/astra_exception.h
+cstdarg
+-
+cstdio
+-
+exception
+-
+string
+-
+
+/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/list_devices.cpp
+iostream
+-
+astra_camera/astra_device_manager.h
+/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_camera/astra_device_manager.h
+astra_camera/astra_exception.h
+/home/bcsh/mini2_ws/src/ros_astra_camera-master/src/astra_camera/astra_exception.h
+

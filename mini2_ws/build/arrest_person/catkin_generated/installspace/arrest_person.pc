@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/install
+
+Name: arrest_person
+Description: Description of arrest_person
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

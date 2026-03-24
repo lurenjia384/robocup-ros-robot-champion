@@ -1,0 +1,8 @@
+<launch>
+  <node name="multi_goal" pkg="robot_slam" type="navigate_node" output="screen">
+      <param name="A_x" value="1.0"/>
+      <param name="A_y" value="-1.0"/>
+      <param name="B_x" value="3.0"/>
+      <param name="B_y" value="-0.5"/>
+  </node>
+</launch>

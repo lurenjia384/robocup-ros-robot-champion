@@ -1,0 +1,19 @@
+\subsubsection usage Usage
+\verbatim
+<node name="zoo_bringup" pkg="zoo_bringup" type="zoo_bringup">
+  <param name="wheel_diameter" type="int" value="30" />
+  <param name="wheel_track" type="int" value="300" />
+  <param name="encoder_resolution" type="int" value="1560" />
+  <param name="do_pid_interval" type="int" value="10" />
+  <param name="kp" type="int" value="20" />
+  <param name="ki" type="int" value="20" />
+  <param name="kd" type="int" value="20" />
+  <param name="ko" type="int" value="20" />
+  <param name="cmd_last_time" type="int" value="200" />
+  <param name="max_v_liner_x" type="int" value="60" />
+  <param name="max_v_liner_y" type="int" value="0" />
+  <param name="max_v_angular_z" type="int" value="120" />
+  <param name="imu_type" type="int" value="0" />
+</node>
+\endverbatim
+

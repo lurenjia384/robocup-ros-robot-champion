@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/devel
+
+Name: apriltags2
+Description: Description of apriltags2
+Version: 0.9.8
+Cflags: -I/home/bcsh/mini2_ws/src/apriltags2/include
+Libs: -L${prefix}/lib -lapriltags2
+Requires: 

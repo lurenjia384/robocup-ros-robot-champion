@@ -1,0 +1,8 @@
+prefix=/home/bcsh/mini2_ws/devel
+
+Name: d435_camera
+Description: Description of d435_camera
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

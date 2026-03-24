@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/bcsh/mini2_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/bcsh/mini2_ws/src/d435_camera/include/**",
+                "/home/bcsh/mini2_ws/src/human_pose/include/**",
+                "/home/bcsh/mini2_ws/src/robot_base/lidar_filter/include/**",
+                "/home/bcsh/mini2_ws/src/robot_slam/include/**",
+                "/home/bcsh/mini2_ws/src/robot_voice/include/**",
+                "/home/bcsh/mini2_ws/src/robot_base/zoo_bringup/include/**",
+                "/home/bcsh/mini2_ws/src/robot_base/zoo_control/include/**",
+                "/home/bcsh/mini2_ws/src/robot_base/zoo_description/include/**",
+                "/home/bcsh/mini2_ws/src/robot_base/zoo_imu/include/**",
+                "/home/bcsh/mini2_ws/src/robot_base/zoo_robot/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/better_astar_global_planner-main/include/better_astar_global_planner"
+            ],
+            "name": "ROS"
+        }
+    ],
+    "version": 4
+}

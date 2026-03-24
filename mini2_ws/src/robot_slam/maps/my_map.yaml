@@ -1,0 +1,6 @@
+image: /home/bcsh/mini2_ws/src/robot_slam/maps/my_map.pgm
+resolution: 0.050000
+origin: [-3.350000, -2.950000, 0.0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
