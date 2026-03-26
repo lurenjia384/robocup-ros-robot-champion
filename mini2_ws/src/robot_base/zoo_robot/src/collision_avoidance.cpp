@@ -351,8 +351,8 @@ void collision_avoidance(float target_x,float target_y)
     //4. 避障策略
     if(flag_collision_avoidance.data == true)
     {
-        distance_cx = distance_c * cos(angle_c/180*3.1415926);
-        distance_cy = distance_c * sin(angle_c/180*3.1415926);
+        distance_cx = distance_c * cos(angle_c/180*3.14159265);
+        distance_cy = distance_c * sin(angle_c/180*3.14159265);
 
         //distance_cx = - distance_cx;  //dyx
 
