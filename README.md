@@ -201,14 +201,35 @@ git clone https://github.com/lurenjia384/robocup-ros-robot-champion.git
 cd robocup-ros-robot-champion/mini2_ws
 ```
 
-### 2. Build the workspace
+### 2. Install dependencies
+
+If `rosdep` has not been initialized on your machine, run:
+
+```bash
+sudo rosdep init
+rosdep update
+```
+
+Then install workspace dependencies:
+
+```bash
+rosdep install --from-paths src --ignore-src -r -y
+```
+
+### 3. Build the workspace
+
+If you are building on a different machine, it is usually safer to remove the pre-generated `build/` and `devel/` directories first:
+
+```bash
+rm -rf build devel
+```
 
 ```bash
 catkin_make
 source devel/setup.bash
 ```
 
-### 3. Example entry points
+### 4. Example entry points
 
 Depending on your hardware and environment, you may start with launch files such as:
 

@@ -196,14 +196,35 @@ git clone https://github.com/lurenjia384/robocup-ros-robot-champion.git
 cd robocup-ros-robot-champion/mini2_ws
 ```
 
-### 2. 编译工作空间
+### 2. 安装依赖
+
+如果你的机器还没有初始化 `rosdep`，可以先执行：
+
+```bash
+sudo rosdep init
+rosdep update
+```
+
+然后安装工作空间依赖：
+
+```bash
+rosdep install --from-paths src --ignore-src -r -y
+```
+
+### 3. 编译工作空间
+
+如果你是在另一台机器上复现，通常建议先删除仓库中已有的 `build/` 和 `devel/` 目录，再重新编译：
+
+```bash
+rm -rf build devel
+```
 
 ```bash
 catkin_make
 source devel/setup.bash
 ```
 
-### 3. 参考启动方式
+### 4. 参考启动方式
 
 可以根据具体环境，从如下模块开始尝试：
 
